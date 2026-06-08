@@ -140,9 +140,9 @@ background:rgba(255,255,255,0.08);
 # LOAD MODEL
 # =========================================================
 
-model = joblib.load(r"E:\ml projects\begineer\heart disease\knn_heart.pkl")
-scaler = joblib.load(r"E:\ml projects\begineer\heart disease\scaler.pkl")
-expected_columns = joblib.load(r"E:\ml projects\begineer\heart disease\columns.pkl")
+model = joblib.load("knn_heart.pkl")
+scaler = joblib.load("scaler.pkl")
+expected_columns = joblib.load("columns.pkl")
 
 # =========================================================
 # SIDEBAR
